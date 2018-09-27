@@ -1,0 +1,104 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    height: 20%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    flex: 1 300px;
+}
+
+.A {
+    width: 30%;
+    height: 100%;
+    background-color: crimson;
+}
+
+.B {
+    width: 70%;
+    height: 100%;
+    background-color: forestgreen;
+}
+
+.C {
+    flex: 2 300px;
+    height: 100%;
+    border: 3px solid crimson;
+}
+
+.D {
+    height: 100%;
+    border: 3px solid forestgreen;
+    order: -1;
+}
+
+.E {
+    flex: 2 300px;
+    height: 100%;
+    border: 3px solid crimson; 
+}
+
+.F {
+    height: 100%;
+    border: 3px solid forestgreen;
+    order: 1;
+}
+
+.G{
+    background-color: dimgray;
+    width: 300px;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.I {
+    background-color: dimgray;
+    width: 300px;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.H {
+    background-color: forestgreen;
+    height: 100%;
+}
+
+.J, .K {
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 100%;
+    margin-top: 1px;
+}
+
+.J {
+    background-color: crimson;
+    width: 190px;
+}
+
+.k {
+    background-color: greenyellow;
+}
+.L {
+    background-color: crimson;
+    float: right;
+    width: 100%;
+    height: 100%;
+    margin-left: -430px;
+    margin-top: 1px;
+}
+
+.L1 {
+    margin-right: 440px;
+}
+
+.AB, .CD, .EF, .GHI {
+    clear: both;
+}
